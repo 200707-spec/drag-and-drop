@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(150deg, #0b0423, #1b0170);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+}
+
+.dropzone {
+    width: 300px;
+    min-height: 400px;
+    padding: 10px;
+    border: 2px dashed rgb(0, 0, 0);
+    border-radius: 10px;
+    transition: background 0.3s;
+}
+
+.dropzone:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.list {
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    cursor: grab;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+}
+
+.list:hover {
+    transform: scale(1.05);
+}
+
+#um { background-color: rgb(255, 0, 0); }
+#dois { background-color: rgb(255, 0, 0); }
+#tres { background-color: rgb(255, 0, 0); }
+#quatro { background-color: rgb(255, 0, 0); }
